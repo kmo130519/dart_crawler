@@ -1,0 +1,2 @@
+# Dart crawler
+This project was created to automate the organization of disclosure data, which was previously manually performed by XX Securities. It was created at the request of the department that was previously doing this work.
