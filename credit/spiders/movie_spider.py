@@ -13,7 +13,6 @@ class MovieSpider(scrapy.Spider):
             yield scrapy.Request(url = url, callback = self.parse)
 
     def parse(self, response):
-        # css or xpath
         movie_sels = response.css('ul.lst_detail_t1 > li > dl')
         item = {}
         for movie_sel in movie_sels:
